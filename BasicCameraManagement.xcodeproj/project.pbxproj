@@ -44,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3342659D2BA3296A0090A900 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				335A9A742BA1F14200A48892 /* Main */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		334DD7B12BA21A0F006989B6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				334DD7B12BA21A0F006989B6 /* Models */,
-				335A9A792BA1F18900A48892 /* Component */,
-				335A9A742BA1F14200A48892 /* Main */,
+				335A9A792BA1F18900A48892 /* Components */,
+				3342659D2BA3296A0090A900 /* Pages */,
 				335A9A662BA1F13000A48892 /* BasicCameraManagementApp.swift */,
 				335A9A6A2BA1F13000A48892 /* Assets.xcassets */,
 				335A9A6C2BA1F13000A48892 /* Preview Content */,
@@ -107,13 +115,13 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		335A9A792BA1F18900A48892 /* Component */ = {
+		335A9A792BA1F18900A48892 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				334DD7B62BA21CD9006989B6 /* FileCard */,
 				335A9A7E2BA1F1E700A48892 /* Camera */,
 			);
-			path = Component;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		335A9A7E2BA1F1E700A48892 /* Camera */ = {
