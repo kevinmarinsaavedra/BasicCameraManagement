@@ -3,4 +3,54 @@
    uuid = "45436BD0-DF74-4FF9-9DDE-FC57710D3FDB"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D5385CA-9629-4F8E-A015-1B9FB92066D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BasicCameraManagement/Pages/Main/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "saveFileDetails(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6D5385CA-9629-4F8E-A015-1B9FB92066D2 - a6bae681c4876914"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BasicCameraManagement.MainViewModel.saveFileDetails(url: Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()"
+                  moduleName = "BasicCameraManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/WD%20Blue%20M.2/Kevin/Documents/iOS/OneShot/BasicCameraManagement/BasicCameraManagement/Pages/Main/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2152">
+               </Location>
+               <Location
+                  uuid = "6D5385CA-9629-4F8E-A015-1B9FB92066D2 - a6bae681c4876abf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BasicCameraManagement.MainViewModel.saveFileDetails(url: Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()"
+                  moduleName = "BasicCameraManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/WD%20Blue%20M.2/Kevin/Documents/iOS/OneShot/BasicCameraManagement/BasicCameraManagement/Pages/Main/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "2640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

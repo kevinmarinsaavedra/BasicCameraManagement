@@ -66,7 +66,7 @@ struct CameraView: UIViewControllerRepresentable {
                 do {
                     try data.write(to: fileURL)
                     print("Ruta de archivo local de la imagen guardada: \(fileURL)")
-                    parent.viewModel.didSelectImage(image, fileURL)
+                    parent.viewModel.didSelectImage(fileURL)
                     parent.viewModel.dismiss()
                 } catch {
                     print("Error al escribir la imagen en el sistema de archivos: \(error)")

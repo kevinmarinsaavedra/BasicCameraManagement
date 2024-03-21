@@ -60,7 +60,7 @@ extension MainView {
     
     var cameraViewModel: CameraViewModel {
         return .init(
-            didSelectImage: { image, url in
+            didSelectImage: { url in
                 viewModel.saveFileDetails(url: url)
             },
             dismiss: {

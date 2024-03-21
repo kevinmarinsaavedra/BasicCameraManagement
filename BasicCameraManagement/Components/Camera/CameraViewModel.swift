@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 class CameraViewModel: ObservableObject {
-    var didSelectImage: (UIImage?, URL?) -> Void
+    var didSelectImage: (URL?) -> Void
     var dismiss: () -> Void
     
-    init(didSelectImage: @escaping (UIImage?, URL?) -> Void, dismiss: @escaping () -> Void) {
+    init(didSelectImage: @escaping (URL?) -> Void, dismiss: @escaping () -> Void) {
         self.didSelectImage = didSelectImage
         self.dismiss = dismiss
     }
